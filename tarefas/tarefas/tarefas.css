@@ -1,0 +1,119 @@
+.skz {
+   background-color: rgba(0, 17, 67, 0.925);
+}
+
+body {
+   background-color: rgba(0, 17, 67, 0.925);
+   justify-content: center;
+   text-align: center;
+}
+
+h1 {
+   color: rgb(131, 182, 215);
+
+   span {
+      color: rgb(227, 153, 153);
+   }
+}
+
+.formulario {
+   display: flex;
+   justify-content: center;
+}
+
+.tarefas {
+   display: flex;
+   gap: 370px;
+   position: relative;
+}
+
+.concluida {
+   color: rgb(110, 110, 110);
+}
+
+#formulario input {
+   height: 35px;
+   flex: 1;
+   border-radius: 5px;
+   border: none;
+   background-color: rgb(77, 76, 76);
+   color: rgb(136, 136, 136);
+}
+
+.lista-vazia {
+   top: 30px;
+   color: antiquewhite;
+   position: relative;
+   left: 155px;
+}
+
+.lista-vazia p {
+   font-size: 15px;
+
+   position: relative;
+   left: 35px;
+}
+
+.lista-vazia * {
+   margin: 0;
+}
+
+.hidden {
+   display: none;
+}
+
+button {
+   padding: 5px 25px;
+   border-radius: 5px;
+   background-color: rgb(157, 208, 255);
+   color: rgb(0, 0, 0);
+   border: none;
+}
+
+#lista-atividades {
+   padding: 0;
+   list-style: none;
+}
+
+.card-atividade {
+   display: flex;
+   border-radius: 8px;
+   background-color: black;
+   color: aliceblue;
+   width: 70%;
+}
+
+#span-1 {
+
+   display: flex;
+   right: -10px;
+   position: relative;
+}
+
+.tarefa {
+   position: relative;
+   right: 100px;
+   display: flex;
+}
+
+.remove-btn{
+   background-color: transparent;
+   width: 35px;
+   border: none;
+}
+
+.remove-btn:hover img{
+   width: 35px;
+   height: 35px;
+background: url(lixeira-self.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.remove-btn img{
+   width: 35px;
+   height: 35px;
+   background: url(lixeira.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}

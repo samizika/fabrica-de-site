@@ -1,0 +1,10 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-color: aliceblue;
+    color: hsl(0, 0%, 0%);
+}
+
+.page-container{
+    max-width: 1200px;
+}
