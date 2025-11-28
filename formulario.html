@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="formulario.html">formulario</a>
+        <a href="skz.html">inicio</a>
+        <a href="membros.html">membros</a>
+        <a href="music.html">musicas </a>
+        
+    </div>
+    <br>
+    
+<br><br><br>
+  <!-- From Uiverse.io by mi-series --> 
+<div class="container">
+    <div class="form_area">
+        <p class="title">fale conosco</p>
+        <form action="">
+            <div class="form_group">
+                <label class="sub_title" for="name">nome</label>
+                <input placeholder="coloque seu nome" class="form_style" type="text">
+            </div>
+            <div class="form_group">
+                <label class="sub_title" for="email">Email</label>
+                <input placeholder="coloque seu email" id="email" class="form_style" type="email">
+            </div>
+            <div class="form_group">
+                <label class="sub_title" for="password">assunto</label>
+                <input placeholder="  " id="password" class="form_style" type="text">
+                <br>
+                <select name="assunto" id="form_group">
+                    <option value="feedback" class="">retorno sobre o projeto</option>
+                    <option value="sugest">sugestão para o projeto</option>
+                    <option value="new-project">novo projeto</option>
+                    <option value="mensagem">uma mensagem</option>
+                </select>
+
+            </div>
+            <div>
+                <button class="btn">enviar</button>
+               </div>
+    <script>
+        function validaForm() {
+            const email = document.getElementById('email');
+            let emailtext = email.value.trim();
+            let valido = false
+            if(emailTtext.includes("@")){
+                console.log("achei o @")
+            }
+            let partesEmail = emailText.split("@");
+            if (partesEmail[0].length >= 7 && partesEmail[0].legnth <= 127){
+                valido = true;
+            } else{ valido = false }
+
+           
+        
+        const nome = document.getElementById("nome");
+
+    }
+
+        </script>
+
+        <footer>desenvolvido por samira germano</footer>
+</body>
+</html>

@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+
+    overflow: hidden;
+    background-color: black; 
+}
+
+
+.navbar a {
+    float: right;
+    display: block;
+    color: rgb(206, 223, 238); 
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+
+    background-color: aliceblue;
+    color: rgb(123, 124, 222);
+}
+.container {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    max-width: 400px;
+    z-index: 1000;
+}
+
+h1 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.input-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1db954;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1ed760;
+}
+
+.song-info {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 50px;
+    flex-wrap: wrap; 
+}
+
+.pierce img,
+.truman img,
+.falling img {
+    width: 250px; 
+    height: auto;
+    border-radius: 5px;
+}
+
+
+h1{
+    text-align: center;
+    height: 40%;
+    color: rgb(255, 255, 255);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Botao {
+     display: block;
+     margin: 40px auto;
+     --bg: #000;
+     --hover-bg: #ff90e8;
+     --hover-text: #000;
+      color: #fff;
+      cursor: pointer;
+      border: 1px solid var(--bg);
+      border-radius: 4px;
+      padding: 0.8em 2em;
+      background: var(--bg);
+     transition: 0.2s;
+      align-items: center;
+}
+
+#Botao:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem, -0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+#Botao:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+
+.nome-musica {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    color: aliceblue;
+}
+
+.nome-banda {
+
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 2px 0 10px 0;
+    color: #ccc;
+}
