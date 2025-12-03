@@ -1,15 +1,10 @@
-
 body {
     background-color: #BFAE99;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.titulo {  
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 .navbar {
     overflow: hidden;
@@ -21,6 +16,7 @@ body {
     display: block;
     color: rgb(195, 221, 243);
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -31,41 +27,54 @@ body {
     border-radius: 4px;
 }
 
-.titulo{
+
+.titulo {
     text-align: center;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0;
+    font-family: 'Times New Roman', serif;
 }
 
 
-.bangchan{text-align: center;
-font-size: 10px;}
-
-.leeknow{text-align: center;
-    font-size: 10px;}
-    
-.changbin{ text-align: center;
-    font-size: 10px;}
-.hyunjin{text-align: center;
-    font-size: 10px;} 
-.han{text-align: center;
-    font-size: 10px;} 
-.felix{text-align: center;
-    font-size: 10px;} 
-.seungmin{text-align: center;
-    font-size: 10px;} 
-.jeongin{text-align: center;
-    font-size: 10px;}   
-
-img{width: 400px;
-
-
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
 }
 
-#descricao{
+
+.membro {
     text-align: center;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+
+
+.membro img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+
+.membro h2 {
+    font-size: 24px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+
+.descricao {
     font-style: italic;
-    margin: 2px 0 10px 0;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+
+.membro p {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 0 15px;
 }
