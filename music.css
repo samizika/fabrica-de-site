@@ -1,65 +1,119 @@
-body
-
-.titulo{  
-
-    text-align: center;
-    color: rgb(51, 0, 80);
+body {
+    background-color: #BFAE99;
+    margin: 0;
+    padding: 0;
 }
 
-.content { 
-   font-family: Georgia, Times, 'Times New Roman', serif;
+.titulo {  
     text-align: center;
-} 
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+
 .navbar {
     overflow: hidden;
     background-color: rgb(0, 0, 0);
 }
- 
+
 .navbar a {
     float: left;
     display: block;
     color: rgb(195, 221, 243);
     text-align: center;
-    padding: 14px  16px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbar a:hover {
     background-color: #D9A25F;
-  color: #593622;
+    color: #593622;
 }
 
-.titulo{
-  font-size: 18px;
-    margin: 0;
-    padding: 0;
-    text-align: center;  
-}
-
-h1{
-     text-align: center;
-    height: 40%;
+h1 {
+    text-align: center;
     color: rgb(255, 255, 255);
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+}
 
-   .imagens{
-     display: flex;
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;     
     justify-content: center;
-    gap: 90px;
+    gap: 60px;
     margin-top: 50px;
-    flex-wrap: wrap; 
-   }
+}
+
+
 .godsmenu,
 .s-class,
-.maniac img{
-    width: 250px; 
+.maniac,
+.lalala,
+.chkchkboom,
+.doit {
+    text-align: center;
+    width: 250px;       
+}
+
+
+.godsmenu img,
+.s-class img,
+.maniac img,
+.lalala img,
+.chkchkboom img,
+.doit img {
+    width: 250px;
     height: auto;
     border-radius: 5px;
 }
 
-#nome-musica{ text-align: center;
+
+#nome-musica {
     font-size: 16px;
     font-family: 'Georgia', serif;
     font-weight: bold;
-    margin: 5px 0 0 0;
-    color: aliceblue;}
+    margin: 10px 0 0 0;
+    color: black;
+}
+
+
+h3 {
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-top: 5px;
+}
+
+.button-container {
+    text-align: center;  
+    margin: 40px 0;    
+}
+
+.comic-button {
+  display: inline-block;  
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #A64F03;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.comic-button:hover {
+  background-color: #fff;
+  color: #A64F03;
+  border: 2px solid #A64F03;
+  box-shadow: 5px 5px 0px #A64F03;
+}
+
+.comic-button:active {
+  background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+}
