@@ -65,6 +65,18 @@ h1 {
     width: 250px;
     height: auto;
     border-radius: 5px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+    transition: 0.3s;
+
+}
+
+.godsmenu img,
+.s-class img,
+.maniac img,
+.lalala img,
+.chkchkboom img,
+.doit img:hover {
+     transform: scale(1.03); 
 }
 
 
